@@ -1,0 +1,73 @@
+@font-face {
+  font-family: grift;
+  src: url("../../../fonts/grift/Grift-BlackItalic.woff");
+}
+@font-face {
+  font-family: things;
+  src: url("../../../fonts/Things/Things-Regular.woff");
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  background-color: hsl(0, 69%, 45%);
+  border-radius: 10px;
+  padding: 3vw;
+  box-shadow: 4px 4px 4px 4px hsl(0, 71%, 50%);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-family: grift, sans-serif;
+}
+.image {
+  width: 15vw;
+  height: 15vh;
+}
+.title {
+  width: 15vw;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.bottom {
+  display: flex;
+  height: 5vh;
+  gap: 1vw;
+}
+.input {
+  width: 3vw;
+  background-color: hsl(0, 0%, 83%);
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 0%);
+}
+.buttons {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+.cart {
+  border-radius: 10px;
+}
+.input:focus {
+  border: 3px solid hsl(84, 95%, 65%);
+}
+.input:hover {
+  background-color: aliceblue;
+}
+.cart {
+  font-family: things, sans-serif;
+}
+.increment {
+  background-color: hsl(84, 100%, 60%);
+  border: 2px solid black;
+}
+.decrement {
+  background-color: hsl(0, 100%, 60%);
+  border: 2px solid black;
+}

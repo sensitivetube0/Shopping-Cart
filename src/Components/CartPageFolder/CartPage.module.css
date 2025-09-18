@@ -1,0 +1,64 @@
+.order {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.75vw;
+  margin-top: 10vh;
+}
+.total {
+  justify-self: center;
+  font-size: 1.5rem;
+}
+.text {
+  padding: 5vw;
+  width: 18vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 4vh;
+}
+.card {
+  padding: 8vw;
+  font-size: 1.2rem;
+}
+.buttons {
+  display: flex;
+  gap: 3vw;
+}
+.buttons button {
+  color: hsl(208, 100%, 60%);
+  font-size: 1rem;
+}
+.incre,
+.decre {
+  width: 5vw;
+  height: 5vw;
+}
+.title {
+  font-size: 2rem;
+}
+.container {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.card {
+  border: 3px solid hsl(0, 79%, 55%);
+  margin-right: 0;
+  background-color: aliceblue;
+}
+.card:hover {
+  background-color: hsl(103, 70%, 79%);
+  transform: translateY(-5px);
+}
+.incre {
+  background-color: hsl(84, 100%, 80%);
+}
+.decre {
+  background-color: hsl(0, 90%, 60%);
+}
+.incre:hover {
+  background-color: hsl(84, 100%, 64%);
+}
+.decre:hover {
+  background-color: hsl(0, 100%, 30%);
+}

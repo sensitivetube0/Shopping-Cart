@@ -1,0 +1,42 @@
+@font-face {
+  font-family: grift;
+  src: url(../../../fonts/grift/Grift-Black.woff);
+}
+
+.homePageContainer {
+  width: 100vw;
+  margin-top: 20vh;
+}
+.descrip {
+  color: rgb(0, 0, 0);
+  justify-self: center;
+  width: 30vw;
+  font-size: 1.8rem;
+  font-family: grift, sans-serif;
+  position: relative;
+  z-index: 1;
+}
+.styleDiv1 {
+  height: 30vh;
+  background-color: hsl(0, 78%, 70%);
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  width: 99vw;
+  z-index: -1;
+  clip-path: ellipse(80% 60% at center);
+}
+.styleDiv2 {
+  height: 80vh;
+  background-color: hsl(180, 87%, 70%);
+  position: absolute;
+  z-index: -1;
+  top: 35vh;
+  width: 90vw;
+  clip-path: ellipse(40% 50% at top);
+}
+.heading {
+  justify-self: center;
+  margin-bottom: 3vh;
+  font-size: 2rem;
+}
